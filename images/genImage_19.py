@@ -36,7 +36,7 @@ def makeImage(height, width, imageName):
 
 
     ctx.set_line_width(lineSize)
-    ctx.set_source_rgba(0, 0, 1, 1)
+    ctx.set_source_rgba(0x91/255, 0x1e/255, 0xb4/255, 1)
     for d in range(N):
         ang1 = (kA * d) * 2 * pi / N
         ang2 = (kB * d) * 2 * pi / N
